@@ -1,6 +1,12 @@
 #include"Socio.h"
 Socio::Socio():Persona(){}
-Socio::Socio(string cedula, string nombreCompleto, string email, string telefono):Persona(cedula,nombreCompleto,email,telefono){}
+Socio::Socio(string cedula, string nombreCompleto, string email, string telefono):Persona(cedula,nombreCompleto,email,telefono){
+	peso = 80.0;
+	masaMuscular = 0.70;
+	grasaCorporal = 0.30;
+	tipoRutina = 1;
+	rutina = nullptr;
+}
 Socio::~Socio(){}
 string Socio::getCedula(){}
 string Socio::getNombreCompleto(){}

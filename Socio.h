@@ -1,6 +1,7 @@
 #ifndef _SOCIO_
 #define _SOCIO_
 #include"Rutina.h"
+class Rutina;
 class Socio :Persona {
 private:
 	float peso;
