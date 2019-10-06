@@ -8,21 +8,21 @@ Socio::Socio(string cedula, string nombreCompleto, string email, string telefono
 	rutina = nullptr;
 }
 Socio::~Socio(){}
-string Socio::getCedula(){}
-string Socio::getNombreCompleto(){}
-string Socio::getEmail(){}
-string Socio::getTelefono(){}
-void Socio::setCedula(string){}
-void Socio::setNombreCompleto(string){}
-void Socio::setEmail(string){}
-void Socio::setTelefono(string){}
-float Socio::getPeso(){}
-float Socio::getMasaMuscular(){}
-float Socio::getGrasaCorporal(){}
-bool Socio::getTipoRutina(){}
-Rutina* Socio::getRutina(){}
-void Socio::setPeso(float){}
-void Socio::setMasaMuscular(float){}
-void Socio::setGrasaCorporal(float){}
-void Socio::setTipoRutina(bool){}
-void Socio::setRutina(Rutina*){}
+string Socio::getCedula() { Persona::getCedula(); }
+string Socio::getNombreCompleto() { Persona::getNombreCompleto(); }
+string Socio::getEmail() { Persona::getEmail(); }
+string Socio::getTelefono() { Persona::getTelefono(); }
+void Socio::setCedula(string cedula) { Persona::setCedula(cedula); }
+void Socio::setNombreCompleto(string nombre) { Persona::setNombreCompleto(nombre); }
+void Socio::setEmail(string email) { Persona::setEmail(email); }
+void Socio::setTelefono(string telefono) { Persona::setTelefono(telefono); }
+float Socio::getPeso() { return peso; }
+float Socio::getMasaMuscular() { return masaMuscular; }
+float Socio::getGrasaCorporal() { return grasaCorporal; }
+bool Socio::getTipoRutina() { return tipoRutina; }
+Rutina* Socio::getRutina() { return rutina; }
+void Socio::setPeso(float peso) { this->peso = peso; }
+void Socio::setMasaMuscular(float masaM) { masaMuscular = masaM; }
+void Socio::setGrasaCorporal(float grasaC) { grasaCorporal = grasaC; }
+void Socio::setTipoRutina(int tipo) { tipoRutina = (tipo == 1)?true:false; }
+void Socio::setRutina(Rutina* rutina) { this->rutina = rutina; }

@@ -1,6 +1,7 @@
 #ifndef _SOCIO_
 #define _SOCIO_
 #include"Rutina.h"
+#include"Persona.h"
 class Rutina;
 class Socio :Persona {
 private:
@@ -29,7 +30,7 @@ public:
 	void setPeso(float);
 	void setMasaMuscular(float);
 	void setGrasaCorporal(float);
-	void setTipoRutina(bool);
+	void setTipoRutina(int);
 	void setRutina(Rutina*);
 
 };

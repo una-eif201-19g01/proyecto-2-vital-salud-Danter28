@@ -24,5 +24,18 @@ void Rutina::setTamanno(int tamanno) {
 		}
 	}
 }
-void Rutina::agregarEjercicio(Ejercicio*){}
-void Rutina::eliminarEjercicio(){}
+void Rutina::agregarEjercicio(Ejercicio* ejercicioN){
+	ejercicios[cantidad] = ejercicioN;
+	cantidad++;
+}
+void Rutina::eliminarEjercicio(Ejercicio* ejercicio){
+	for (int recorrer = 0; recorrer <= cantidad; recorrer++) {
+		if (ejercicios[recorrer] == ejercicio) { 
+			while (recorrer <= cantidad) {
+				ejercicios[recorrer] = ejercicios[recorrer + 1];
+				recorrer++;
+			} 
+		}
+	}
+
+}
