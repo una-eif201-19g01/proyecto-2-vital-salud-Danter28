@@ -1,7 +1,0 @@
-project(proyecto-2-vital-salud-Danter28)
-
-set(SOURCE_FILES main.cpp Menu.cpp Menu.h Persona.h Persona.cpp Instructor.h Instructor.cpp
-	Socio.h Socio.cpp Clase.h Clase.cpp Rutina.h Rutina.cpp Ejercicio.h Ejercicio.cpp 
-	Expediente.h Expediente.cpp Salon.h Salon.cpp Interfaz.h Interfaz.cpp)
-
-add_executable(proyecto-2-vital-salud-Danter28 ${SOURCE_FILES})

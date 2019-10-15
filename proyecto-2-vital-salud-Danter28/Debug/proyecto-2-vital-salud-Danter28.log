@@ -1,0 +1,65 @@
+﻿  Listas.cpp
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(5,33): error C2653:  'ListaEjercicios': no es un nombre de clase o espacio de nombres
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(5,36): error C4430:  falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(6,2): error C2065:  'primero': identificador no declarado
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(6,12): error C2065:  'NULL': identificador no declarado
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(7,2): error C2065:  'actual': identificador no declarado
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(7,11): error C2065:  'NULL': identificador no declarado
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(8,1): warning C4508:  'ListaEjercicios': la función debe devolver un valor; se supone que el tipo de valor devuelto es 'void'
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(11,33): error C2653:  'ListaEjercicios': no es un nombre de clase o espacio de nombres
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(12,6): error C2065:  'primero': identificador no declarado
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(12,17): error C2065:  'NULL': identificador no declarado
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(17,40): error C2653:  'ListaEjercicios': no es un nombre de clase o espacio de nombres
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(17,41): error C2065:  'Ejercicio': identificador no declarado
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(17,52): error C2065:  'ejercicio': identificador no declarado
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(17,61): error C2182:  'insertarEjercicio': uso no válido del tipo 'void'
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(17,63): error C2448:  'insertarEjercicio': el inicializador de estilo de función parece ser una definición de función
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(30,39): error C2653:  'ListaEjercicios': no es un nombre de clase o espacio de nombres
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(30,40): error C2065:  'Ejercicio': identificador no declarado
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(30,51): error C2065:  'n': identificador no declarado
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(30,52): error C2182:  'eliminaEjercicio': uso no válido del tipo 'void'
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(30,54): error C2448:  'eliminaEjercicio': el inicializador de estilo de función parece ser una definición de función
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(47,33): error C2653:  'ListaEjercicios': no es un nombre de clase o espacio de nombres
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(47,33): error C4430:  falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(47,25): error C2146:  error de sintaxis: falta ';' delante del identificador 'toString'
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(47,36): error C2143:  error de sintaxis: falta ';' delante de '{'
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(47,36): error C2447:  '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(58,10): error C2143:  error de sintaxis: falta ';' delante de '*'
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(58,10): error C4430:  falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(58,47): error C2653:  'ListaEjercicios': no es un nombre de clase o espacio de nombres
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(58,55): error C2146:  error de sintaxis: falta ')' delante del identificador 'nom'
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(58,60): error C2143:  error de sintaxis: falta ';' delante de '{'
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(58,60): error C2447:  '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(71,40): error C2653:  'ListaEjercicios': no es un nombre de clase o espacio de nombres
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(71,40): error C4430:  falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(71,40): error C2086:  'int string': nueva definición
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(47): message :  vea la declaración de 'string'
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(71,25): error C2146:  error de sintaxis: falta ';' delante del identificador 'buscarEjercicio'
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(71,53): error C2143:  error de sintaxis: falta ';' delante de '{'
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(71,53): error C2447:  '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(84,41): error C2653:  'ListaEjercicios': no es un nombre de clase o espacio de nombres
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(84,53): error C2065:  'nuevo': identificador no declarado
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(84,58): error C2182:  'ActualizaEjercicio': uso no válido del tipo 'void'
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(84,60): error C2448:  'ActualizaEjercicio': el inicializador de estilo de función parece ser una definición de función
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(95,34): error C2653:  'ListaEjercicios': no es un nombre de clase o espacio de nombres
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(95,34): error C2523:  '<Desconocido>::~ListaEjercicios': etiqueta de destructor sin correspondencia
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(95,37): error C4430:  falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(95,37): error C2084:  la función 'int ListaEjercicios(void)' ya tiene un cuerpo
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(5): message :  vea la definición anterior de 'ListaEjercicios'
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(96,2): error C2065:  'actual': identificador no declarado
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(96,11): error C2065:  'primero': identificador no declarado
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(97,9): error C2065:  'primero': identificador no declarado
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(98,3): error C2065:  'actual': identificador no declarado
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(98,12): error C2065:  'primero': identificador no declarado
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(99,3): error C2065:  'primero': identificador no declarado
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(99,13): error C2065:  'primero': identificador no declarado
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(100,10): error C2065:  'actual': identificador no declarado
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(100,16): error C2541:  'delete': no se pueden eliminar objetos que no sean punteros
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(102,2): error C2065:  'actual': identificador no declarado
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(102,11): error C2065:  'NULL': identificador no declarado
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(103,2): error C2065:  'primero': identificador no declarado
+  main.cpp
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\Listas.cpp(103,12): error C2065:  'NULL': identificador no declarado
+  Nodos.cpp
+  Generando código...
+C:\Users\dante\source\repos\una-eif201-19g01\proyecto-2-vital-salud-Danter28\proyecto-2-vital-salud-Danter28\main.cpp(13,30): error C2061:  error de sintaxis: identificador 'NodoEjercicio'

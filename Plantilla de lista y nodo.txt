@@ -1,0 +1,170 @@
+#pragma once
+#include "Objeto.h"
+class Nodo_Objeto{
+	private:
+	Objeto* objeto;
+	Nodo_Objeto*siguiente;
+public:
+	Nodo_Objeto(Objeto* , Nodo_Objeto*);
+	void setObj(Objeto*);
+	Objeto *getObj();
+	void setSigNodo_Objeto
+	Nodo_Objeto*getSig();
+	Nodo_Objeto();
+
+};
+
+
+/////////////////////////////////////////////////
+
+#include "Nodo_Objeto.h"
+
+
+Nodo_Objeto::Nodo_Objeto(Objeto *obj,Nodo_Objeto *sig=NULL){ 
+	objeto=new Objeto(); //se pueden setear los parametros desde aqui
+	siguiente=sig;
+}
+
+void Nodo_Objeto::setObj(Objeto *obj){
+	Objeto=obj;
+
+}
+
+Curso *Nodo_Objeto::getObj(){ 
+	return objeto;
+}
+
+void Nodo_Objeto::setSig(Nodo_Objeto *sig){ 
+	siguiente=sig;
+}
+
+Nodo_Objeto *Nodo_Objeto::getSig(){
+	return siguiente;
+}
+
+Nodo_Objeto::~Nodo_Objeto() 
+{
+}
+///////////////////////////////////////////////
+#pragma once
+#include "Nodo_Objeto.h"
+class Lista_Objeto{
+private:
+	Nodo_Objeto* primero;
+	Nodo_Objeto* actual;
+public:
+	Lista_Objeto(void);
+	~Lista_Objeto(void);
+	bool listaVacia();
+	string toString();
+	void insertarObjeto(Objeto *);
+	void eliminaObjeto(Objeto*);
+	void ActualizaObjeto(Objeto*);
+	Objeto *encuentraObjeto(/*parametro de busqueda*/);
+	string buscarObjeto(/*parametro de busqueda*/);
+
+};
+////////////////////////////////////
+#include "Lista_Objeto.h"
+
+
+Lista_Objeto::Lista_Objeto(){ 
+	primero=NULL;
+	actual=NULL;
+}
+
+
+bool Lista_Objeto::listaVacia(){ //retorna si la lista está vacía
+		if(primero==NULL)
+		return true;
+	else
+		return false;
+}
+void Lista_Objeto::insertarObjeto(Objeto *obj){  //En este metodo se inserta el Objeto n en un nodo para posteriormente insertarlo en la lista, guardandolos.
+	
+ 	actual=primero;
+	if(primero==NULL) //Si la lista está vacia,  se crea un nuevo nodo para iniciar la lista, insertando el objeto que entra por parametro.
+		primero=new Nodo_Objeto(obj,NULL);
+	
+	else{ //Caso contrario se inserta el elemento
+		while(actual->getSig()){
+			actual=actual->getSig();
+		}
+		actual->setSig(new Nodo_Objeto(obj,actual->getSig()));
+	}
+} 
+ void Lista_Objeto::eliminaObjeto(Objeto *n){//Busca y elimina un nodo determinado de la lista
+	Nodo_Objeto* anterior=NULL;
+	actual=primero;	  
+	while(actual && actual->getObj()->getNombre()!=n->getNombre()){ //cambia segun los parametros de busqueda
+		anterior=actual; //Se usa una auxiliar anterior para guardar el campo del nodo anterior al que se va a borrar
+		actual=actual->getSig(); //Avanza por la lista hasta encontrar el objeto a borrar.
+	}
+	if(!actual  || actual->getObj()->getNombre() !=n->getNombre())//Si no lo encontro, cambia segun los parametros de busqueda
+		return; //
+	else{//Borra el nodo
+		if(!anterior)//si es el primer elemento
+			primero=actual->getSig();
+		else//si es un elemento intermedio o el ultimo
+			anterior->setSig( actual->getSig());
+		delete actual;
+	}
+}
+string Lista_Objeto::toString(){ // toString de la clase, obtiene todos nodos, les extrae los datos y los imprime en pantalla, cambia segun el contenido de los nodos
+		stringstream s1;
+		actual=primero; 
+		s1<<"\nNombre de curso:\n\n";
+		  while(actual!=NULL){
+			s1<<actual->getObj()->toString()<<endl;
+			actual=actual->getSig();
+		  }
+		  return s1.str();
+}
+
+Objeto *Lista_Objeto::encuentraObjeto(string nom){ //Busca un objeto y lo devuelve a partir de un nombre que digite el usuario, cambia segun el contenido del nodo
+	actual = primero;
+	while(actual!=NULL){
+		if(actual->getObj()->getNombre()==nom){
+			return actual->getObj();
+			break;
+		}
+		actual = actual->getSig();
+		if(actual==NULL)
+			return NULL;
+	}
+}
+
+string Lista_Objeto::buscarObjeto(string nom){//Busca un objeto y retorna la informacion de este, cambia segun el contenido del nodo
+	actual = primero;
+	while(actual!=NULL){
+		if(actual->getObj()->getNombre()==nom){
+			return actual->getObj()->toString();
+			break;
+		}
+		actual = actual->getSig();
+		if(actual==NULL)
+			return NULL;
+	}
+}
+
+void Lista_Objeto::ActualizaObjeto(Objeto *nuevo){ //Actualiza la informacion de un objeto que se encuentre en esta clase, cambia segunel contenido del nodo
+		actual = primero;
+	while(actual!=NULL){
+		if(actual->getObj()->getNombre()==nueva->getNombre()){
+			actual->setObj(nueva);
+			break;
+		}
+		actual = actual->getSig();
+	}
+}
+
+Lista_Objeto::~Lista_Objeto(){ // Destructor de la clase 
+	actual=primero;
+	while(primero){
+		actual=primero;
+		primero=primero->getSig();
+		delete actual;
+	}
+	actual=NULL;
+	primero=NULL;
+}
