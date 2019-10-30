@@ -129,7 +129,8 @@
     <ClInclude Include="Instructor.h" />
     <ClInclude Include="Interfaz.h" />
     <ClInclude Include="Librerias.h" />
-    <ClInclude Include="Listas.h" />
+    <ClInclude Include="ListaPersona.h" />
+    <ClInclude Include="ListaEjercicio.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Nodos.h" />
     <ClInclude Include="Persona.h" />
@@ -143,7 +144,8 @@
     <ClCompile Include="Expediente.cpp" />
     <ClCompile Include="Instructor.cpp" />
     <ClCompile Include="Interfaz.cpp" />
-    <ClCompile Include="Listas.cpp" />
+    <ClCompile Include="ListaPersona.cpp" />
+    <ClCompile Include="ListaEjercicio.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Nodos.cpp" />

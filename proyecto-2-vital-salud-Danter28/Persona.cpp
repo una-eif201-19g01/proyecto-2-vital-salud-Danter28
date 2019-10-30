@@ -11,3 +11,4 @@ void Persona::setCedula(string ced) { cedula = ced; }
 void Persona::setNombreCompleto(string nom) { nombreCompleto = nom; }
 void Persona::setEmail(string email) { this->email = email; }
 void Persona::setTelefono(string tel) { telefono = tel; }
+string Persona::toString() {}
